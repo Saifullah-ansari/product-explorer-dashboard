@@ -3,7 +3,8 @@
 export default function CategoryFilter({ categories, value, onChange }: any) {
   return (
     <select
-      className="border p-2 rounded"
+      className="rounded-lg border border-gray-300 px-4 py-2
+                 focus:outline-none focus:ring-2 focus:ring-black"
       value={value}
       onChange={e => onChange(e.target.value)}
     >
